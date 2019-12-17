@@ -143,7 +143,7 @@ namespace TechJobsConsole
         }
 
         /*
-        * needs to take a parameter that is a string value, the user's search term and column choices dictionary
+        * needs to take a parameter that is a string value, the user's search term
         */
         public static List<Dictionary<string, string>> FindByValue(string value)
         {

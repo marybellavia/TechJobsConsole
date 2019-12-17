@@ -168,10 +168,6 @@ namespace TechJobsConsole
                         //breaking the loop so it won't return doubles
                         break;
                     }
-                    else
-                    {
-                        continue;
-                    }
                 }
              }
             return searchJobs;

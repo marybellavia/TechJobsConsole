@@ -170,6 +170,13 @@ namespace TechJobsConsole
                     }
                 }
              }
+
+            if (searchJobs.Count == 0)
+            {
+                string noResults = "That search does not return any results. Please try again!";
+                Console.WriteLine(noResults);
+            }
+
             return searchJobs;
         }   
     }

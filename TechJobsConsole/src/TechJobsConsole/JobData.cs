@@ -51,7 +51,8 @@ namespace TechJobsConsole
                 // accessing the column key of the dictionary from parameter to check dictionary for value
                 string aValue = row[column];
 
-                if (aValue.Contains(value))
+                // used ToUpper() to make the FindByColumnAndValue case insensitive
+                if (aValue.ToUpper().Contains(value.ToUpper()))
                 {
                     jobs.Add(row);
                 }

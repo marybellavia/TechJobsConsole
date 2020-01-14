@@ -171,6 +171,7 @@ namespace TechJobsConsole
                 }
              }
 
+            // conditional statement that will display if there are no search results for a given search term
             if (searchJobs.Count == 0)
             {
                 string noResults = "That search does not return any results. Please try again!";
